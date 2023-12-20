@@ -47,12 +47,12 @@ def menu():
     print('  [1] File Cloning')
     print('  [2] Join Whatsapp Group')
     linex()
-    lomda = input('\033[1;37mChoose Option : ')
+    lomda = input('\033[1;37m   Choose Option : ')
     if lomda in ['1']:
         clear()
         print('  PUT FILE EXAMPLE :  /sdcard/filename.txt')
         linex()
-        file = input('  Enter File Name\033[1;37m: ')
+        file = input('   Enter File Name\033[1;37m: ')
         try:
             fo = open(file,'r').read().splitlines()
         except FileNotFoundError:
