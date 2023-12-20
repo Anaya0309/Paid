@@ -577,7 +577,7 @@ def _f_a_md__eck():
             print('\033[1;97m-----------------------------------------------')
             print("\x1b[1;97mThis is Paid tool > 350 for 30 days")
             print("\x1b[1;97mCopy Token and Press Enter")
-            os.system('xdg-open https://wa.me/+923148498294')
+            os.system('xdg-open https://wa.me/+923096902140')
             time.sleep(1)
             sys.exit()
     except:
