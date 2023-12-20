@@ -47,7 +47,7 @@ def menu():
     print('  [1] File Cloning')
     print('  [2] Join Whatsapp Group')
     linex()
-    lomda = input('\033[1;37m   ❕ Choose Option : ')
+    lomda = input('\033[1;37m  ❕  Choose Option : ')
     if lomda in ['1']:
         clear()
         print('   📁 :  /sdcard/filename.txt')
