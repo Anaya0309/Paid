@@ -166,6 +166,7 @@ def faisalmand():
     print(f'  [03]   Separate Ids')
     print(f'  [04]   Double Idz Cut From File ')
     print(f'  [05]   Remove Expire Token')
+    print(f'  [W]    Join Whatsapp Group ')
     print(f'  [00]   Exit ')
     print('\033[1;97m-----------------------------------------------')
     _ffaisal___ = input('\033[1;93m[•] \033[1;97mChoose : ')
@@ -202,6 +203,9 @@ def faisalmand():
         time.sleep(3)
         os.system('rm -rf access_token.txt')
         version()
+        elif select =='W':
+        os.system('xdg-open https://chat.whatsapp.com/J3gpK8NYNQBHhEYnVxN4X7')
+        pass
     if _ffaisal___ in ('0', '00'):
         os.system('clear')
         exit('BYE')
