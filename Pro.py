@@ -44,15 +44,15 @@ def clear():
 def menu():
     os.system('clear')
     print(logo)
-    print('[1] File Cloning')
-    print('[2] Join Whatsapp Group')
+    print('  [1] File Cloning')
+    print('  [2] Join Whatsapp Group')
     linex()
     lomda = input('\033[1;37mChoose Option : ')
     if lomda in ['1']:
         clear()
-        print('PUT FILE EXAMPLE :  /sdcard/filename.txt')
+        print('  PUT FILE EXAMPLE :  /sdcard/filename.txt')
         linex()
-        file = input('Enter File Name\033[1;37m: ')
+        file = input('  Enter File Name\033[1;37m: ')
         try:
             fo = open(file,'r').read().splitlines()
         except FileNotFoundError:
@@ -60,24 +60,24 @@ def menu():
             time.sleep(2)
             menu()
         clear()
-        print('[1] METHOD 1')
-        print('[2] METHOD 2')
-        print('[3] METHOD 3')
+        print('  [1] METHOD 1')
+        print('  [2] METHOD 2')
+        print('  [3] METHOD 3')
         linex()
         mthd=input('CHOOSE : ')
         linex()
         clear()
         plist = []
         try:
-            ps_limit = int(input('HOW MANY PASSWORDS DO YOU WANT ? '))
+            ps_limit = int(input('  HOW MANY PASSWORDS DO YOU WANT ? '))
         except:
             ps_limit =1
         linex()
         clear()
-        print('\033[1;37m EXAMPLE : first last,firtslast')
+        print('\033[1;37m   EXAMPLE : first last,firtslast')
         linex()
         for i in range(ps_limit):
-            plist.append(input(f'PUT PASSWORD {i+1}: '))
+            plist.append(input(f'  PUT PASSWORD {i+1}: '))
         linex()
         clear()
         with loda(max_workers=30) as crack_submit:
