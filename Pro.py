@@ -27,8 +27,8 @@ logo = """
 888             888  T88b       Y88b. .d88P 
 888             888   T88b       "Y88888P"  V.3
 ----------------------------------------------
- Owner      :  CHRISE-XD
- Github     :  MR-CHRISE
+ Owner      :  Umar Nazeer
+ Github     :  Cyber-Attack
 --------------------------------------------------"""
 def linex():
     print('\033[1;37m---------------------------')
