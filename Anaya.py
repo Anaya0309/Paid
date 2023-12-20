@@ -141,7 +141,22 @@ logo =                                          """
   \033[1;37m Github   :      Anaya
   \033[1;37m Version  :      19.8
   \033[1;37m------------------------------------------------------ """
-
+NAME = []
+for xd in range(5000):
+    aa='Mozilla/5.0 (Macintosh;'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c='Intel Mac OS'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Safari/537.36 Edg/'
+    moonlite=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    NAME.append(moonlite)
 
 def hasil(OK, cp):
     if not len(OK) != 0:
@@ -237,7 +252,7 @@ class __xxx__:
                 header = {
                     "Host": cebok,
                     "upgrade-insecure-requests": "1",
-                    "user-agent": "[FBAN/FB4A;FBAV/444.0.0.31.114;FBBV/924159209;FBDM/{density=1.5,width=480,height=800};FBLC/fr_FR;FBRV/576861186;FBCR/null;FBMF/HTC;FBBD/HTC;FBPN/com.facebook.katana;FBDV/6545LVW;FBSV/8.0.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]",
+                    "user-agent": "NAME",
                     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
                     "dnt": "1",
                     "x-requested-with": "mark.via.gp",
@@ -245,7 +260,7 @@ class __xxx__:
                     "sec-fetch-mode": "cors",
                     "sec-fetch-user": "empty",
                     "sec-fetch-dest": "document",
-                    "referer": "https://t.facebook.com/",
+                    "referer": "https://x.facebook.com/",
                     "accept-encoding": "gzip, deflate br",
                     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8"
                 }
@@ -265,7 +280,7 @@ class __xxx__:
                     "upgrade-insecure-requests": "1",
                     "origin": "https://"+cebok,
                     "content-type": "application/x-www-form-urlencoded",
-                    "user-agent": "[FBAN/FB4A;FBAV/444.0.0.31.114;FBBV/924159209;FBDM/{density=1.5,width=480,height=800};FBLC/fr_FR;FBRV/576861186;FBCR/null;FBMF/HTC;FBBD/HTC;FBPN/com.facebook.katana;FBDV/6545LVW;FBSV/8.0.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]",
+                    "user-agent": "NAME",
                     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
                     "x-requested-with": "XMLHttpRequest",
                     "sec-fetch-site": "same-origin",
