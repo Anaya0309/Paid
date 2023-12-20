@@ -15,7 +15,7 @@ methods = []
 speed = []
 twf = []
 loop = 0
-os.system('https://chat.whatsapp.com/IjLRadygoVqD0CO9sTBvIY')
+os.system('https://chat.whatsapp.com/GOBJZdlxr0Z30Zr2ZhQ6S7')
 
 logo =                                          """            
 \033[1;37m                                                                                                                                                                              
@@ -47,7 +47,7 @@ def menu():
     print('  [1] File Cloning')
     print('  [2] Join Whatsapp Group')
     linex()
-    lomda = input('\033[1;37m   Choose Option : ')
+    lomda = input('\033[1;37m  ❕   Choose Option : ')
     if lomda in ['1']:
         clear()
         print('   📁 :  /sdcard/filename.txt')
